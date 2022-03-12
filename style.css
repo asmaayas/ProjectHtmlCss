@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    
+}
+header{
+    position: relative;
+    background-image: url(./pic/backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    
+
+}
+
+header img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left:44%;
+    top: 5%;
+    
+}
+header h1,h2{
+    
+    color: #4A403A;
+    font-weight: bold;
+    position: relative;
+    top: 10%;
+    text-align: center;
+}
+#top{
+    height: 60%;
+    width: 15%;
+    position: absolute;
+    top:0;
+    left:0;
+    border-top: 20px solid #4A403A ;
+    border-left: 20px solid #4A403A ;
+}
+#bottom{
+    height: 60%;
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 20px solid #4A403A ;
+    border-right: 20px solid #4A403A ;
+}
+main{
+    text-align: center;
+}
+.inlineBlock div{
+    display: inline-block;
+    width: 20%;
+    height:30vh;
+  
+}
+    
+.bold{
+    font-weight: bold;
+}
+
+ .con{
+     
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+ }
+ .con div{
+   
+    width: 33%;
+    padding: 2%;
+
+}
+.line{
+    height: 60px;
+    border-bottom: 3px solid #706A6A;
+    
+}
+.h1{
+    color: #706A6A;
+}
+.b{
+    background-color: #4A403A;
+    border-color: #4A403A;   
+}
+.inlineBlock1 div{
+    display: inline-block;
+    width: 33%;
+    height:30vh;
+  
+}
+.projectImg{
+    height: 200px;
+    width: 300px;
+}
+p{
+    text-align: left;
+}
+footer{
+    text-align: left;
+    background-color: #4A403A;
+    color: white;
+    height: 200px;
+}
+.f{
+display: grid;
+grid-template-columns:repeat(5 fr) ;
+grid-template-rows: fr;
+grid-template-areas: 'f1 f1 f1 f1 f2';
+
+}
+
+.f1{
+    grid-area: f1;
+    margin-top: 10px;
+}
+.f2{
+    grid-area: f2;
+    margin-top: 10px;
+}
+.i{
+    margin: 20px;
+    color: white;
+}
+
+
+
+
+
+ 
