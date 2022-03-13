@@ -6,25 +6,27 @@
    
 }
  /*  hedear  */
+.na{
+    background-color: #C5D8A4;
+    
+}
 
-header{
+.H{
+   
     position: relative;
     background-image: url(./pic/backgroud.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    
     
 
 }
-nav{
-    margin-left: 10px;
-    padding-top: 10px;
-    position: fixed;
-    font-weight: bold;
-}
 
-header img{
+
+
+.H img{
+    margin-top: 10px;
     height: 150px;
     width:150px;
     border-radius: 50%;
@@ -33,7 +35,7 @@ header img{
     top: 10%;
     
 }
-header h1,h2{
+.H h1,h2{
     
     color: #4A403A;
     font-weight: bold;
@@ -42,21 +44,20 @@ header h1,h2{
     text-align: center;
 }
 #top{
-    height: 40%;
+    height: 70%;
     width: 10%;
     position: absolute;
-    top:0;
+    top: 0;
     left:0;
-    border-top: 20px solid #4A403A ;
     border-left: 20px solid #4A403A ;
 }
 #bottom{
-    height: 40%;
+    height: 70%;
     width: 10%;
     position: absolute;
     bottom: 0;
     right: 0;
-    border-bottom: 20px solid #4A403A ;
+    /* border-bottom: 20px solid #4A403A ; */
     border-right: 20px solid #4A403A ;
 }
 main{
@@ -136,6 +137,40 @@ main{
     height: 200px;
     width: 300px;
 }
+
+/* EXPERIENCE */
+
+.exp{
+    text-align: left;
+}
+
+/* footer */
+
+footer{
+    text-align: left;
+    background-color: #4A403A;
+    color: white;
+    
+}
+.f{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.f div{
+    width: 33%;
+    margin-top: 5%;
+}
+/* .f2{
+    margin-left: 3px;
+} */
+.i{
+    margin-left: 20px;
+    color: white;
+}
+
+    
+}
 @media only screen and (max-width:992px) {
 
     .projectImg{
@@ -150,6 +185,7 @@ main{
     .projectImg{
         height: 100px;
         width: 150px;
+        font-weight: 300;
     }
     .line{
         display: none;
@@ -180,38 +216,14 @@ main{
     height: 100px;
     width: 150px;
 }
-}
-
-/* EXPERIENCE */
-
-.exp{
-    text-align: left;
-}
-
-/* footer */
-
-footer{
-    text-align: left;
-    background-color: #4A403A;
-    color: white;
-    height: 200px;
-}
 .f{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+    display: block;
 }
 .f div{
-    width: 33%;
-    margin-top: 5%;
+    width: 100%;
 }
-/* .f2{
-    margin-left: 3px;
-} */
-.i{
-    margin-left: 20px;
-    color: white;
 }
+
 
 
 
