@@ -1,0 +1,89 @@
+                
+                /*   EDUCTION     */
+
+                /* try numb1 */
+.inlineBlock{
+    display: grid;
+    grid-column-start: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 60% 15%;
+    grid-template-areas: 'edu1 edu11 edu111 edu1111' 'edu2 edu22 edu222 edu2222' 'edu3 edu33 edu333 edu3333' ;
+    
+}
+.edu1{
+    grid-area: edu1;
+}
+.edu11{
+    grid-area: edu11;
+}
+.edu111{
+    grid-area: edu111;
+    height: 20%;
+}
+.edu2{
+    grid-area: edu2;
+}
+.edu22{
+    grid-area: edu22;
+}
+.edu222{
+    grid-area: edu2222;
+}
+.edu3{
+    grid-area: edu3;
+}
+.edu33{
+    grid-area: edu33;
+}
+.edu333{
+    grid-area: edu333;
+}
+.edu4{
+    grid-area: edu4;
+}
+.edu44{
+    grid-area: edu44;
+}
+.edu444{
+    grid-area: edu444; 
+}
+
+/* try numb2 */
+
+.inlineBlock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.inlineBlock div{
+    width:25%;
+}
+
+
+/* footer */
+.f{
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows: 100%;
+    grid-template-areas: 'f1 f2 f3';
+    
+    }
+    
+    .f1{
+        grid-area: f1;
+        margin-top: 10px;
+    }
+    .f2{
+        grid-area: f2;
+        margin-top: 10px;
+    }
+    .f3{
+        grid-area: f2;
+        margin-top: 10px;
+    }
+    
+    
+  
+}

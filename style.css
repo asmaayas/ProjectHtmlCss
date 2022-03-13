@@ -5,9 +5,8 @@
     padding: 0;
    
 }
-body{
-    
-}
+ /*  hedear  */
+
 header{
     position: relative;
     background-image: url(./pic/backgroud.jpg);
@@ -18,14 +17,20 @@ header{
     
 
 }
+nav{
+    margin-left: 10px;
+    padding-top: 10px;
+    position: fixed;
+    font-weight: bold;
+}
 
 header img{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width:150px;
     border-radius: 50%;
     position: relative;
     left:44%;
-    top: 5%;
+    top: 10%;
     
 }
 header h1,h2{
@@ -33,12 +38,12 @@ header h1,h2{
     color: #4A403A;
     font-weight: bold;
     position: relative;
-    top: 10%;
+    top: 20%;
     text-align: center;
 }
 #top{
-    height: 60%;
-    width: 15%;
+    height: 40%;
+    width: 10%;
     position: absolute;
     top:0;
     left:0;
@@ -46,8 +51,8 @@ header h1,h2{
     border-left: 20px solid #4A403A ;
 }
 #bottom{
-    height: 60%;
-    width: 15%;
+    height: 40%;
+    width: 10%;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -57,12 +62,27 @@ header h1,h2{
 main{
     text-align: center;
 }
+
+/*   EDUCTION     */
+
+.inlineBlock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
 .inlineBlock div{
-    display: inline-block;
-    width: 20%;
-    height:30vh;
+    width:24%;
+    padding-top: 5px;
+    margin: 3px;
+    border: 1px solid; 
+    border-radius: 3%;
   
 }
+
+    
+
     
 .bold{
     font-weight: bold;
@@ -93,19 +113,83 @@ main{
     background-color: #4A403A;
     border-color: #4A403A;   
 }
+
+/*    RECENT PROJECTS      */
+
+
+.inlineBlock1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
 .inlineBlock1 div{
-    display: inline-block;
     width: 33%;
-    height:30vh;
+    
   
 }
+
+
+
 .projectImg{
     height: 200px;
     width: 300px;
 }
-p{
+@media only screen and (max-width:992px) {
+
+    .projectImg{
+        height: 100px;
+        width: 150px;
+    }
+    
+}
+
+@media only screen and (max-width:770px) and (min-width: 489px){
+
+    .projectImg{
+        height: 100px;
+        width: 150px;
+    }
+    .line{
+        display: none;
+    }
+}
+@media only screen and (max-width:490px){
+    .line{
+        display: none;
+    }
+    .inlineBlock1{
+        display: block;  
+        text-align: left;
+    }
+    .inlineBlock1 div{
+        width: 100%;
+        border-bottom: 1px solid;
+   
+    }
+    .inlineBlock{
+        display: block;  
+        text-align: left;  
+    
+}
+.inlineBlock div{
+    width: 100%; 
+}
+.projectImg{
+    height: 100px;
+    width: 150px;
+}
+}
+
+/* EXPERIENCE */
+
+.exp{
     text-align: left;
 }
+
+/* footer */
+
 footer{
     text-align: left;
     background-color: #4A403A;
@@ -113,23 +197,19 @@ footer{
     height: 200px;
 }
 .f{
-display: grid;
-grid-template-columns:repeat(5 fr) ;
-grid-template-rows: fr;
-grid-template-areas: 'f1 f1 f1 f1 f2';
-
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
-
-.f1{
-    grid-area: f1;
-    margin-top: 10px;
+.f div{
+    width: 33%;
+    margin-top: 5%;
 }
-.f2{
-    grid-area: f2;
-    margin-top: 10px;
-}
+/* .f2{
+    margin-left: 3px;
+} */
 .i{
-    margin: 20px;
+    margin-left: 20px;
     color: white;
 }
 
