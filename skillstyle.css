@@ -3,6 +3,7 @@
      background-color: white;
  }
  #skills{
+     margin-top:20px;
      position: relative;
  }
 .h1{
@@ -83,8 +84,9 @@ h2{
     background-color: #FF1818;
     border: 3px solid #FF1818;
     position: fixed;
-    right: 2%;
-    top: 50%;
+    right: 0.5%;
+    top: 0%;
+    z-index: 1;
     transition: transform 2s;
     /* transition: transform 2s; */
     /* transition: transform, 1s; */
@@ -107,6 +109,9 @@ h2:hover {
       border: none;
       font-weight: bold;
       font-size: x-large;
+  }
+  #aq, #am, #ot{
+      margin-left:15px;
   }
 
   @media only screen and (max-width:770px){
