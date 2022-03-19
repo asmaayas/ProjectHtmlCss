@@ -3,7 +3,7 @@
      background-color: white;
  }
  #skills{
-     margin-top:20px;
+     margin-top:60px;
      position: relative;
  }
 .h1{
@@ -99,6 +99,7 @@ h2:hover {
   .x{
     background-color: #ECECEC;
     padding: 20px;
+    margin-bottom: 80px;
   }
   .block, .g{
       display: block;
@@ -113,10 +114,19 @@ h2:hover {
   #aq, #am, #ot{
       margin-left:15px;
   }
+  
 
+  @media only screen and (max-width:1200px){
+    h2{
+        
+        display: block;
+        width: 100%;
+    }}
   @media only screen and (max-width:770px){
     h2{
-        font-size: large;
+        
+        display: block;
+        width: 100%;
     }
 
     .h1{
