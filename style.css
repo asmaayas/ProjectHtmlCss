@@ -25,6 +25,9 @@
     margin: 10px;
     color: #4A403A;
 }
+.na p{
+    padding-top: 10px;
+}
 .logo{
     position: absolute;
     left: 2%;
@@ -82,11 +85,15 @@
     position: absolute;
     top: 30%;
     right: 0;
-    /* border-bottom: 20px solid #4A403A ; */
     border-right: 20px solid #4A403A ;
 }
 main{
     text-align: center;
+}
+/* objective */
+h5{
+    margin: 30px;
+    padding: 20px;
 }
 
 /*   EDUCTION     */
@@ -135,6 +142,7 @@ main{
 }
 .h1{
     color: #706A6A;
+    font-weight: bold;
 }
 .b{
     background-color: #4A403A;
@@ -190,21 +198,27 @@ flex-direction: row;
 flex-wrap: wrap;
 }
 .f div{
-    width: 33%;
-    margin-top: 5%;
+    width:30%;
+    margin:15px;
+}
+.blockquote-footer{
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 27px;
 }
 
 .i{
-    margin-left: 20px;
+    margin: 10px;
     transition: .3s;
     color: #000;
-    border-radius: 50%;
-    box-shadow: 0px 2px 5px lightblue;
+    /* border-radius: 50%; */
+    /* box-shadow: 0px 1px 5px  rgb(236, 240, 241); */
     font-weight: 600;
     
 }
 .i:hover{
-    color: white;
+    color: lightblue;
     transform: translate(0, -10%);
 }
 
@@ -238,10 +252,14 @@ flex-wrap: wrap;
         display: none;
     }
     #new{
-        margin-top:30px ;
+        margin-top:40px ;
     }
     .na{
         font-size: xx-small;
+    }
+    .na a{
+        margin: 10px;
+        color: #4A403A;
     }
    
 }
@@ -284,11 +302,15 @@ flex-wrap: wrap;
     display: none;
 }
 #new{
-    margin-top:30px ;
+    margin-top:60px ;
 }
 .na{
     font-size: xx-small;
+    font-weight: 300;
+
 }
+.na a{
+    margin: 3px;}
 #top{
     border: none;
 }
@@ -301,6 +323,8 @@ flex-wrap: wrap;
     .H img{
        left: 30%;
     }
+    .na a{
+        margin: 3px;}
 }
 
 /* @keyframes pic-move {

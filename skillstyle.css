@@ -5,8 +5,8 @@
  #skills{
      position: relative;
  }
-.h1,{
-    color: #5463FF;
+.h1{
+    color: tomato;
    
 }
 h3{
@@ -82,7 +82,7 @@ li{
 h2{
     background-color: #FF1818;
     border: 3px solid #FF1818;
-    position: absolute;
+    position: fixed;
     right: 2%;
     top: 50%;
     transition: transform 2s;
@@ -94,13 +94,34 @@ h2:hover {
     background-color: #FFC300;
     transform: rotate(360deg);
   }
-  @media only screen and (max-width:490px){
+  .x{
+    background-color: #ECECEC;
+    padding: 20px;
+  }
+  .block, .g{
+      display: block;
+      width: 100%;
+  }
+  .g{
+      background-color: #FFC300;
+      border: none;
+      font-weight: bold;
+      font-size: x-large;
+  }
+
+  @media only screen and (max-width:770px){
     h2{
-        position: relative;
+        font-size: large;
     }
 
-    /* form */
+    .h1{
+        font-size: x-large;
+        }
+       h3{
+           font-size: small;
+       }
 
-    .x{
-        background-color: #FFE8D6;
-    }
+   }
+
+    
+   
