@@ -2,7 +2,8 @@
 My Frist Project :) 
 ### Hi there 👋, my name is Ro'a, and this is my frist website ever,
  I try my best to keep it simple and clear, I used What I learned in HTML and CSS and a little bootstrap.
-this is a picture for the wireframe and the mockup for the project.
+this is a picture for the wireframe and the mockup for the project:
+
 ![wirefraem1](./pic/wirefram1.png)
 ![wirefraem2](./pic/wirefram2(68).png)
 ![mockup1](./pic/mockup%201.png)
